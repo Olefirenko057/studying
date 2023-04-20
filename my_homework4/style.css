@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.positions {
+    position: relative;
+    width: 200px;
+}
+.red {
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-color: red;
+}
+.green {
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-color: green;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 5;
+    transition: 2s;
+}
+.green:hover {
+    rotate: -45deg;
+    transform: scale(1.5);
+}
+.blue {
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+    
